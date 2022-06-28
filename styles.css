@@ -1,0 +1,39 @@
+/* =================ROOT========================*/
+:root {
+    --very-dark-grayish-blue: hsl(217, 19%, 35%);
+    --desat-dark-blue: hsl(214, 17%, 51%);
+    --garyish-blueL: hsl(212, 23%, 69%);
+    --light-grayish-blue: hsl(210, 46%, 95%);
+}
+/* =================/ROOT========================*/
+
+
+/* =================RESETS========================*/
+* {
+    box-sizing: border-box;
+    /* outline: 1px solid black; */
+}
+
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+/* =================/RESETS========================*/
+
+body {
+    font-family: 'Manrope', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--light-grayish-blue);
+}
+
+
+/* ==========Frontend Mentor Footer=================*/
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
