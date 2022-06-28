@@ -103,6 +103,15 @@ body {
     align-items: center;
 }
 
+.social-info-title {
+    color: var(--very-dark-grayish-blue);
+    font-weight: 700;
+}
+
+.social-info-subtitle {
+    color: var(--desat-dark-blue);
+}
+
 .avatar-container {
     padding-right: 1em;
 }
