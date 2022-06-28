@@ -129,8 +129,11 @@ body {
      left: 0;
      right: 0;
      bottom: 15px;
+     color: var(--very-dark-grayish-blue);
+
 }
 .attribution a {
-     color: hsl(228, 45%, 44%);
+    color: hsl(162, 38%, 48%);
+
 }
 
