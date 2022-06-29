@@ -2,7 +2,7 @@
 :root {
     --very-dark-grayish-blue: hsl(217, 19%, 35%);
     --desat-dark-blue: hsl(214, 17%, 51%);
-    --garyish-blueL: hsl(212, 23%, 69%);
+    --garyish-blue: hsl(212, 23%, 69%);
     --light-grayish-blue: hsl(210, 46%, 95%);
 }
 /* =================/ROOT========================*/
@@ -103,6 +103,11 @@ body {
     align-items: center;
 }
 
+.social-share-container:hover {
+    cursor: pointer;
+    background-color: var(--garyish-blue);
+}
+
 .social-info-title {
     color: var(--very-dark-grayish-blue);
     font-weight: 700;
@@ -124,6 +129,7 @@ body {
 .content {
     width: 15em;
     background-color: var(--very-dark-grayish-blue);
+    color: var(--garyish-blue);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -131,9 +137,9 @@ body {
     border-radius: .7em;
     box-shadow: 0 0 25px var(--desat-dark-blue);
     position: absolute;
-    transform: translate(35%, -200%);
+    transform: translate(30%, -200%);
     z-index: 1;
-    /* opacity: 0; */
+    opacity: 0;
 }
 
 .arrow {
@@ -143,8 +149,10 @@ body {
     border-right: 1em solid transparent;
     border-top: 1em solid var(--very-dark-grayish-blue);
     position: absolute;
-    transform: translate(600%, -390%);
+    transform: translate(560%, -390%);
     z-index: 2;
+    opacity: 0;
+
 
 }
 
