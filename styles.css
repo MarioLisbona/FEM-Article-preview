@@ -103,33 +103,6 @@ body {
     align-items: center;
 }
 
-.social-share-container:hover::before {
-    content: 'Facebook | Twitter | Pintrest';
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 13rem;
-    height: 3.3rem;
-    background-color: var(--very-dark-grayish-blue);
-    position: absolute;
-    transform: translateY(-140%);
-    border-radius: .3em;
-}
-
-.social-share-container:hover::after {
-    content:'';
-    width: 0;
-    height: 0;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-top: 10px solid var(--very-dark-grayish-blue);
-    border-bottom: 10px solid transparent;
-    position: absolute;
-    transform: translateY(-190%);
-
-}
-
 .social-info-title {
     color: var(--very-dark-grayish-blue);
     font-weight: 700;
@@ -146,6 +119,24 @@ body {
 .avatar-container img {
     max-width: 3em;
     border-radius: 99999px;
+}
+
+.content {
+    width: 15em;
+    background-color: var(--very-dark-grayish-blue);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.1em 2.3em;
+    border-radius: .7em;
+    box-shadow: 0 0 20px var(--desat-dark-blue);
+    position: absolute;
+    transform: translate(35%, -200%);
+    /* opacity: 0; */
+}
+
+.active {
+    opacity: 1;
 }
 
 
