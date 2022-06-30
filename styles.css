@@ -143,7 +143,7 @@ body {
     border-radius: .7em;
     box-shadow: 0 0 25px var(--desat-dark-blue);
     position: absolute;
-    transform: translate(30%, -200%);
+    transform: translate(30%, -190%);
     z-index: 1;
     opacity: 0;
 }
