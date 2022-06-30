@@ -7,7 +7,7 @@ shareButton.addEventListener('mouseover', () => {
     arrow.classList.add('active');
 });
 
-shareButton.addEventListener('mouseleave', () => {
+window.addEventListener('click', () => {
     tooltip.classList.remove('active');
     arrow.classList.remove('active');
-})
+});
