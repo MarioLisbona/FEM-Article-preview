@@ -183,6 +183,18 @@ body {
     transform-origin: bottom;
 }
 
+#facebook img:hover {
+    animation: pulse-effect .2s linear forwards;
+}
+
+#twitter img:hover {
+    animation: pulse-effect .2s linear forwards;
+}
+
+#pinterest img:hover {
+    animation: pulse-effect .2s linear forwards;
+}
+
 
 @media (max-width: 375px) {
     .main-container {
@@ -249,6 +261,19 @@ body {
     }
     100% {
         transform: scale(1);
+    }
+}
+
+@keyframes pulse-effect {
+    0% {
+        transform: scale(1);
+        transform-origin: bottom;
+    }
+
+    100% {
+        transform: scale(1.5);
+        transform-origin: bottom;
+
     }
 }
 
