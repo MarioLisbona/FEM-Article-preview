@@ -160,6 +160,8 @@ body {
     border-left: 1em solid transparent;
     border-right: 1em solid transparent;
     border-top: 1em solid var(--very-dark-grayish-blue);
+    animation: pop-out .2s linear;
+    transform-origin: bottom;
 }
 
 /* .arrow {
@@ -177,6 +179,8 @@ body {
 .active {
     opacity: 1;
     pointer-events: all;
+    animation: pop-out .2s linear;
+    transform-origin: bottom;
 }
 
 
@@ -233,6 +237,19 @@ body {
     }
 
 
+}
+
+@keyframes pop-out {
+    0% {
+        transform: scale(0);
+    }
+
+    90% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
 
 
