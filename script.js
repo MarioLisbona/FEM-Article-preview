@@ -15,6 +15,11 @@ shareButton.addEventListener('mouseover', () => {
     arrow.classList.add('active');
 });
 
+shareButton.addEventListener('click', () => {
+    content.classList.add('active');
+    arrow.classList.add('active');
+});
+
 //eventlistener that removes the active class from the tooltip content and arrow on any click in the window
 window.addEventListener('click', () => {
     content.classList.remove('active');
@@ -24,8 +29,9 @@ window.addEventListener('click', () => {
 //function to set the position of the tooltip and arrow elements
 function contenPosition () {
     const shareButton = tooltip.querySelector('.social-share-container')
-    const ttContent = tooltip.querySelector('.tooltip-content')
-    const arrow = tooltip.querySelector('.arrow');
+        const arrow = tooltip.querySelector('.arrow');
+        const ttContent = tooltip.querySelector('.tooltip-content')
+
 
     ttContent.style.left = shareButton.offsetLeft - ttContent.offsetWidth / 2 + 'px';
     ttContent.style.top = shareButton.offsetTop + -80 + 'px';

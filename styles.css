@@ -141,7 +141,6 @@ body {
     border-radius: .7em;
     box-shadow: 0 0 25px var(--desat-dark-blue);
     position: absolute;
-    /* transform: translate(30%, -190%); */
     z-index: 1;
     opacity: 0;
     pointer-events: none;
@@ -155,7 +154,6 @@ body {
 
 .arrow {
     position: absolute;
-    /* transform: translate(190%, 280%); */
     transform: translate(-50%, 280%);
     border-left: 1em solid transparent;
     border-right: 1em solid transparent;
@@ -163,18 +161,6 @@ body {
     animation: pop-out .2s linear;
     transform-origin: bottom;
 }
-
-/* .arrow {
-    width: 0;
-    height: 0;
-    border-left: 1em solid transparent;
-    border-right: 1em solid transparent;
-    border-top: 1em solid var(--very-dark-grayish-blue);
-    position: absolute;
-    transform: translate(560%, -390%);
-    z-index: 2;
-    opacity: 0;
-} */
 
 .active {
     opacity: 1;
@@ -246,6 +232,10 @@ body {
 
     .arrow {
         opacity: 0;
+    }
+
+    .active {
+        transition: none;
     }
 
 
