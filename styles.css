@@ -267,12 +267,12 @@ body {
 @keyframes pulse-effect {
     0% {
         transform: scale(1);
-        transform-origin: bottom;
+        transform-origin: center;
     }
 
     100% {
         transform: scale(1.5);
-        transform-origin: bottom;
+        transform-origin: center;
 
     }
 }
