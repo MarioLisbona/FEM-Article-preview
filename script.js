@@ -15,10 +15,10 @@ shareButton.addEventListener('mouseover', () => {
     arrow.classList.add('active');
 });
 
-shareButton.addEventListener('click', () => {
+function mobileFunction() {
     content.classList.add('active');
     arrow.classList.add('active');
-});
+};
 
 //eventlistener that removes the active class from the tooltip content and arrow on any click in the window
 window.addEventListener('click', () => {
