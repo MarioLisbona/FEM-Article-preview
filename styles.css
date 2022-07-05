@@ -232,13 +232,16 @@ body {
 
     .arrow {
         opacity: 0;
+        animation: none;
     }
 
     .active {
         transition: none;
     }
 
-
+    .tooltip-content {
+        animation: none;
+    }
 }
 
 @keyframes pop-out {
