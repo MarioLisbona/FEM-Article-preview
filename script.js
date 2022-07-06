@@ -15,6 +15,7 @@ shareButton.addEventListener('mouseover', () => {
     arrow.classList.add('active');
 });
 
+//this function is called by the ontouchstart atribute of the social share container for the tooltip to appear on mobile
 function mobileFunction() {
     content.classList.add('active');
     arrow.classList.add('active');
