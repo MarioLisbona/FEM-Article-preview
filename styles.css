@@ -46,7 +46,6 @@ body {
 }
 
 .image-container {
-    /* object-fit: cover; */
     max-width: auto;
     display: flex;
     justify-content: center;
@@ -58,7 +57,6 @@ body {
 }
 
 .image-container img {
-    /* height: auto; */
     width: 135%;
     min-height: 100%;
     max-width: 150%;
